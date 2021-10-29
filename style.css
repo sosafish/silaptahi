@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300&display=swap');
+
+* {
+    font-family: "Merriweather";
+}
+
+body {
+    background: url(media/bg8.jpg);
+    background-attachment: fixed;
+}
+
+.logo {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.logo a {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: tomato;
+}
+
+img {
+    width: 40%;
+}
+.post {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.post a {
+    background-color: tomato;
+    padding: 1%;
+}
+.post h1 {
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: lighter;
+    color: blueviolet;
+    padding: 1%;
+    width: 20%;
+}
+
+
+/** SMARTPHONE **/
+@media screen and (max-width: 480px) {
+    .logo {
+        text-align: center;
+    }
+    .logo a {
+        text-align: center;
+        font-size: 100px;
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: tomato;
+    }
+    
+    .post {
+        padding-top: 5%;
+        text-align: center;
+    }
+    .post a {
+        background-color: tomato;
+        padding: 1%;
+    }
+    .post h1 {
+        background-color: tomato;
+        font-size: 20px;
+        font-weight: lighter;
+        color: blueviolet;
+        padding: 1%;
+        width: 20%;
+    }
+    img {
+        width: 98%;
+        padding-right: 1%;
+    }
+}
